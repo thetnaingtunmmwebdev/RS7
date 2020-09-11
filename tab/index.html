@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Tab</h1>
+    <div class="tabContainer">
+        <div class="buttonContainer">
+            <button>Step 1</button>
+        </div>
+        <div class="tabPanel">
+            <h1>Tab 1:Content</h1><br>
+            <button onclick="showPanel(1,'green')" class="next">Next</button>
+        </div>
+        <div class="tabPanel">
+            <h1>Tab 2:Content</h1><br>
+            <button onclick="showPanel(0,'red')" class="prev">Prev</button>
+            <button onclick="showPanel(2,'blue')" class="next">Next</button>
+        </div>
+        <div class="tabPanel">
+            <h1>Tab 3:Content</h1><br>
+            <button onclick="showPanel(1,'green')" class="prev">Prev</button>
+            <button onclick="showPanel(3,'blue')" class="next">Next</button>
+        </div>
+        <div class="tabPanel">Tab 4:Content</div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
